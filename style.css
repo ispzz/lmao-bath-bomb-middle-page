@@ -8,11 +8,13 @@ body {
 .container {
     display: flex;
     min-height: 100vh;
-    min-height: -webkit-fill-available;
+    /* min-height: -webkit-fill-available; */
     justify-content: center;
     align-items: center;
     background-color: #ffeed0;
 }
 img {
     height: 40vh;
+    flex-shrink: 0;
+    flex-basis: auto;
 }
