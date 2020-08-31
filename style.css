@@ -8,6 +8,7 @@ body {
 .container {
     display: flex;
     min-height: 100vh;
+    min-height: -webkit-fill-available;
     justify-content: center;
     align-items: center;
     background-color: #ffeed0;
