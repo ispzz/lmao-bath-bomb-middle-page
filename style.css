@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 0;
+    min-height: -webkit-fill-available;
 }
 .container {
     display: flex;
@@ -15,6 +16,4 @@ body {
 }
 img {
     height: 40vh;
-    flex-shrink: 0;
-    flex-basis: auto;
 }
