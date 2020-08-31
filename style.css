@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffeed0;
+}
+img {
+    height: 40vh;
+}
